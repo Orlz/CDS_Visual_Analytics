@@ -26,6 +26,7 @@ Output:
     - image_letters.jpg: cropped image with contoured letters
     
 Worked example of how command line code would look: 
+
 $ python edge_detection.py --image_path ../../data/img/weholdtruths.jpeg --roi 10 10 50 50 --output_path output/
 
 ## Recommended edge inputs for ROI of attached image 
