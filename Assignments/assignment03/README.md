@@ -34,5 +34,36 @@ x1 = 1400
 y1 = 890 
 
 x2 = 2900
-y2 = 2800 
+y2 = 2800
+
+# Steps to take 
+
+1. Navigate to the directory where you have the file stored
+You may have a different directory but an example of this would be
+```bash
+cd cds-language/assignments
+```
+
+2. Create the virtual environment
+You'll need to create a virtual environment which will allow you to run the script. This will require the requirements.txt file above 
+To create the virtual environment you'll need to open your terminal and type the following code: 
+```bash
+bash create_lang_venv.sh
+```
+And then activate the environment by typing: 
+```bash
+$ source cv101/bin/activate
+```
+
+3. Specify the parameters and run the directory 
+This will involve inserting your path directory after -d  
+And also inserting your requested subset size after -s    (NB This will just be a number, see example above) 
+
+I would recommend running the script on only a subset of the data. This can be done with the following command (this will take the first 100,000 headlines) 
+```bash
+python3 edge_detection.py -d ../data/weholdtruths.jpeg --roi 1400 890 2900 2800 --output_path output/
+```
+
+4. Check the data 
+Providing there are no errors, you should get an output message informing where the output has been saved  
     
