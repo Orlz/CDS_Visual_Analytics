@@ -9,7 +9,7 @@ Classification is a key feature of visual analytics and continues to develop yea
 
 This first script uses multinomial logistic regression to classify images of handwritten digits into the number category they belong to (between 0:9). The output of the script is the evaluation metrics which are printed to the terminal.
 
-The script will use argparse arguments to enable it to be run and the parameters ammended from the commandline:
+The script will use argparse arguments to enable it to be run and the parameters ammended from the commandline. Instructions of how to use these can be found in the README.md file attached to this assignment. 
 
 """
 
