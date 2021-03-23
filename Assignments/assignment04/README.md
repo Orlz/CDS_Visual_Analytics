@@ -3,7 +3,7 @@
 **Assignment 4:** Classification Benchmarks
 ==========================================================================================
 
-**Using Logistic Regression and a Neural Network**__
+**Using Logistic Regression and a Neural Network**
 
 This assignment takes the form of 2 python scripts which should be called dirctly from the commandline. The data used is the MNIST data found on openml. 
 This is a subset of the larger NIST file which contains 60,000 images of handwritten digits with 784 features. 
