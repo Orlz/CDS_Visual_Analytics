@@ -23,7 +23,7 @@ The script pulls data from open online sources and so no additional data needs t
 
 Parameters can be set on the commandline using argpase arguments. Instructions of these can be found on each of these below. 
 
-__Operating the scripts__
+## Operating the scripts
 
 There are 3 steps to take to get your script up and running: 
 Step 1: Clone the repository
