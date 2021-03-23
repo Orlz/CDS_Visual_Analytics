@@ -12,15 +12,19 @@ Please note that the second script has been ammended to run on the digits datase
 
 
 __The Scripts and Data__ 
+
 **lr-mnist.py**  This script uses multinomial logistic regression to classify images of handwritten digits into their correct digit group (0:9)
 
+
 **nn-mnist.py**  This script employs a neural network to classify the same images of handwritten digits into their correct digit group (0:9)
+
 
 The script pulls data from open online sources and so no additional data needs to be added into the script. 
 
 Parameters can be set on the commandline using argpase arguments. Instructions of these can be found on each of these below. 
 
-__Operating the scripts__ 
+__Operating the scripts__
+
 There are 3 steps to take to get your script up and running: 
 Step 1: Clone the repository
 Step 2: Create a virtual environment (cv101) 
@@ -30,6 +34,7 @@ Step 3: Run the 2 scripts using command line parameters
 
 
 __1. Clone the repository__ 
+
 The easiest way to access the files is to clone the repository from your commend line and move into Assignment04 as outlined below 
 
 ```bash
@@ -41,6 +46,7 @@ cd cds-visual-orlz/Assignments/assignment04
 ```
 
 __2. Create the virtual environment__
+
 You'll need to create a virtual environment which will allow you to run the script. This will require the requirements.txt file above 
 To create the virtual environment you'll need to open your terminal and type the following code: 
 
@@ -54,6 +60,7 @@ $ source cv101/bin/activate
 
 
 __3. Run the Script__
+
 You have 2 scripts to run. Both contain some required and optional parameters to define. There are: 
 
 Required: 
