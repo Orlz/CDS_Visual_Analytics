@@ -2,7 +2,7 @@
 ==========================================================================================
 **Assignment 4:** Classification Benchmarks
 ==========================================================================================
-
+"""
 **Using Logistic Regression and a Neural Network**
 
 This assignment takes the form of 2 python scripts which should be called dirctly from the commandline. The data used is the MNIST data found on openml. 
@@ -15,6 +15,6 @@ Information regarding this dataset can be found here: https://www.openml.org/d/5
 
 Parameters can be set on the commandline using argpase arguments. Instructions of these can be found in each
 
-"""
+
 
 Instructions to follow 
