@@ -5,14 +5,16 @@
 Assignment 4: Logistic Regression Classification Benchmarks
 ===========================================================
 
-Classification is a key feature of visual analytics and continues to develop year on year. It has been used in many field from medical imaging (to help determine diagnosis) to business, to internet security, and beyond! 
+Classification is a key feature of visual analytics and continues to develop year on year. 
+It has been used in many field from medical imaging (to help determine diagnosis) to business, to internet security, and beyond! 
 
-This first script uses multinomial logistic regression to classify images of handwritten digits into the number category they belong to (between 0:9). The output of the script is the evaluation metrics which are printed to the terminal.
+This first script uses multinomial logistic regression to classify images of handwritten digits into the number category they belong to (between 0:9). 
+The output of the script is the evaluation metrics which are printed to the terminal.
 
-The script will use argparse arguments to enable it to be run and the parameters ammended from the commandline. Instructions of how to use these can be found in the README.md file attached to this assignment. 
+The script will use argparse arguments to enable it to be run and the parameters ammended from the commandline. 
+Instructions of how to use these can be found in the README.md file attached to this assignment. 
 
 """
-
 
 """
 Import the Dependencies 
