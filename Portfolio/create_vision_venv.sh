@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VENVNAME= computer_vision
+VENVNAME= ComputerVision
 
 python3 -m venv $VENVNAME
 source $VENVNAME/bin/activate
