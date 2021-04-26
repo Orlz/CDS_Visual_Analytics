@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VENVNAME= ComputerVision
+VENVNAME=ComputerVision 
 
 python3 -m venv $VENVNAME
 source $VENVNAME/bin/activate
@@ -11,6 +11,9 @@ pip install ipython
 pip install jupyter
 pip install matplotlib
 pip install opencv-python
+pip install networkx
+pip install sklearn
+pip install seaborn
 
 python -m ipykernel install --user --name=$VENVNAME
 
